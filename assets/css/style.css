@@ -123,11 +123,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 2rem;
 }
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+ul {margin-left: 20px}
+li {
+    list-style: none !important;
+    padding-top:1.2rem;
+}
+.text-white li{
+    opacity: 0.6; animation: ease; letter-spacing: 1.1px;
+}
+
+li:hover {opacity: 1}
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -1880,3 +1890,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.text-white, a { color: var(--light-gray) }
+a {display: inline-block}
