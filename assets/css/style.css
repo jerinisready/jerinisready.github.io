@@ -128,9 +128,10 @@
 
 a.text-white { text-decoration: none; }
 
-ul {margin-left: 20px}
+ul.text-white {margin-left: 20px; }
 li {
     list-style: none !important;
+    overflow-wrap: break-word;
 }
 .text-white li{
     opacity: 0.6; animation: ease; letter-spacing: 1.1px;
