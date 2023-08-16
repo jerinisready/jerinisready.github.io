@@ -126,15 +126,16 @@
   line-height: 2rem;
 }
 
-a { text-decoration: none; }
+a.text-white { text-decoration: none; }
 
 ul {margin-left: 20px}
 li {
     list-style: none !important;
-    padding-top:1.2rem;
 }
 .text-white li{
     opacity: 0.6; animation: ease; letter-spacing: 1.1px;
+    padding-top:1.2rem;
+
 }
 
 li:hover {opacity: 1}
